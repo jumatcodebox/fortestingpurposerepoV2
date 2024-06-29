@@ -1,4 +1,4 @@
-name: Pull Request Comment
+name: Pull Request Comment V2
 on:
   pull_request_target:
     types: [opened]
