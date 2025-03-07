@@ -6,4 +6,8 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Simple JS Action
-              uses: actions/hello-world-javascript-action 
+              #uses: actions/hello-world-javascript-action@v1
+              uses: jumatcodebox/fortestingpurposerepoV2@v1
+              # "with" is used when wanting action to receive an input
+              with:
+                who-to-greet: Ali
